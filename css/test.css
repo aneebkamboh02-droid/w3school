@@ -11,8 +11,9 @@ body{
     padding: 20px;
 position: fixed;
 top: 0px;
-width: 97%;
-word-spacing: 75px;
+width: 100%;
+text-align: center;
+word-spacing: 60px;
     a{
         color:white;
         text-decoration: none;
@@ -23,32 +24,37 @@ word-spacing: 75px;
     }
 }
 @media  screen  and (max-width:900px){
-    .header{
-        word-spacing: 43.5px;
+    .header{text-align: center;
+
+        word-spacing: 40px;
 
     }
 }
 @media  screen  and (max-width:750px){
-    .header{
-        word-spacing: 37px;
+    .header{text-align: center;
+
+        word-spacing: 32px;
 
     }
 }
 @media  screen  and (max-width:680px){
-    .header{
-        word-spacing: 27px;
+    .header{text-align: center;
+
+        word-spacing: 22px;
 
     }
 }
 @media  screen  and (max-width:580px){
     .header{
-        word-spacing: 20px;
+        word-spacing: 10px;
+text-align: center;
 
     }
 }
 @media  screen  and (max-width:480px){
-    .header{
-        word-spacing:8px;
+    .header{text-align: center;
+
+        word-spacing:5px;
 
     }
 }
@@ -245,11 +251,4 @@ button:hover{
     color:rgb(27, 19, 19);
     padding: 10px;
    border-left: 2px solid red;
-}
-@media screen and(max-width:950px) {
-    .fle{
-display: grid;
-grid-template-rows: 300px 250px;
-    }
-    
 }
