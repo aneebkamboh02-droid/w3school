@@ -10,8 +10,8 @@ body{
     font-style: italic;
     padding: 20px;
 
-width: 100%;
-word-spacing: 80px;
+width: 90%;
+word-spacing: 75px;
     a{
         color:white;
         text-decoration: none;
@@ -241,4 +241,9 @@ button:hover{
     color:rgb(27, 19, 19);
     padding: 10px;
    border-left: 2px solid red;
+}
+@media screen and (max-witdh:400px){
+    .pra{
+        visibility: hidden;
+    }
 }
