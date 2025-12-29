@@ -9,8 +9,9 @@ body{
     font-size: 13px;
     font-style: italic;
     padding: 20px;
-
-width: 90%;
+position: fixed;
+top: 0px;
+width: 97%;
 word-spacing: 75px;
     a{
         color:white;
@@ -211,15 +212,18 @@ color: black;
     background-color: rgb(244, 163, 176);
 }
 .fle{
-    display: flex;
+ margin-left: 200px;
+    display: grid;
+    grid-template-columns: 300px 250px;
+    gap: 100px;
 }
 .pra{
+    
     background-color:rgb(222, 220, 220);
-width: 400px;
+width: 250px;
 text-align: start;
 padding: 20px;
 margin-top: 50px;
-margin-left: 150px;
 height: 300px;
 border-radius: 20px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -242,8 +246,10 @@ button:hover{
     padding: 10px;
    border-left: 2px solid red;
 }
-@media screen and (max-witdh:400px){
-    .pra{
-        visibility: hidden;
+@media screen and(max-width:950px) {
+    .fle{
+display: grid;
+grid-template-rows: 300px 250px;
     }
+    
 }
