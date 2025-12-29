@@ -9,8 +9,6 @@ body{
     font-size: 13px;
     font-style: italic;
     padding: 20px;
-position: fixed;
-top: 0px;
 
 width: 100%;
 word-spacing: 80px;
@@ -211,4 +209,36 @@ color: black;
 }
 .gc:hover{
     background-color: rgb(244, 163, 176);
+}
+.fle{
+    display: flex;
+}
+.pra{
+    background-color:rgb(222, 220, 220);
+width: 400px;
+text-align: start;
+padding: 20px;
+margin-top: 50px;
+margin-left: 150px;
+height: 300px;
+border-radius: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+button{
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: rgb(95, 239, 95);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgb(7, 202, 137);
+}
+}
+
+.ht{
+    background-color: white;
+    color:rgb(27, 19, 19);
+    padding: 10px;
+   border-left: 2px solid red;
 }
