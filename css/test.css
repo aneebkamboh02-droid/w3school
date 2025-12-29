@@ -218,10 +218,10 @@ color: black;
     background-color: rgb(244, 163, 176);
 }
 .fle{
- margin-left: 200px;
     display: grid;
     grid-template-columns: 300px 250px;
-    gap: 100px;
+    gap: 50px;
+    justify-content: center;
 }
 .pra{
     
