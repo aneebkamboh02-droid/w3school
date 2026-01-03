@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
 }
@@ -159,21 +162,7 @@ button{
 
 #html{margin-top: -50px;
     padding: 90px;
-    text-align: center;
-    background:rgb(241, 217, 185);
-    h1{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
-    color: white;
-    }
-    p{
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 20px;
-    }
-    a{text-decoration: none;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-
-    }
+    background-color: rgb(241, 217, 185);
 }
 .l{
     border: 0px solid white;
@@ -217,38 +206,70 @@ color: black;
 .gc:hover{
     background-color: rgb(244, 163, 176);
 }
-.fle{
-    display: grid;
-    grid-template-columns: 300px 250px;
-    gap: 50px;
-    justify-content: center;
-}
-.pra{
-    
-    background-color:rgb(222, 220, 220);
-width: 250px;
-text-align: start;
-padding: 20px;
-margin-top: 50px;
-height: 300px;
-border-radius: 20px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-button{
-    margin-top: 20px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 10px;
-    background: rgb(95, 239, 95);
+.h{padding-bottom: 20px;
+    margin-top: -50px;
+    text-align: center;
+    background:rgb(241, 217, 185);
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-button:hover{
-    background-color: rgb(7, 202, 137);
-}
+    }
+    p{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+    }
+    a{text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+    }
 }
 
-.ht{
-    background-color: white;
-    color:rgb(27, 19, 19);
-    padding: 10px;
-   border-left: 2px solid red;
+.cs{
+    background: rgb(248, 248, 179);
+    text-align: center;
+    padding: 30px;
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    }
+p{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+}
+    a{text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+    }
+
+}
+.lc{
+    background-color: rgb(6, 195, 56);
+    padding: 8px 30px 8px 30px;
+    border-radius: 20px;
+    color: white;
+}
+.lc:hover{
+    background-color: rgb(4, 163, 47);;
+}
+.cr{
+    background-color: black;
+        padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    color: white;
+
+}
+.cr:hover{
+    background-color: gray;
+}
+.gs{background-color: rgb(248, 205, 211);
+        padding: 8px 28px 8px 28px;
+    border-radius: 20px;
+color: black;
+
+}
+.gs:hover{
+        background-color: rgb(244, 163, 176);
+
 }
