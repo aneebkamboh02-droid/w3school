@@ -227,7 +227,7 @@ font-size: 20px;
     }
 }
 
-.cs{margin-left: auto;
+.cs{margin: auto;
     background: rgb(248, 248, 179);
     text-align: center;
     padding: 30px;
@@ -307,7 +307,7 @@ padding: 5px;
 .style{
     display: none;
 }}
-#javas{margin: auto;
+#javas{
     background-color: rgb(41, 40, 40);
     padding: 20px;
 
@@ -315,7 +315,7 @@ padding: 5px;
 }
 
 
-.jvs{
+.jvs{margin: auto;
     margin-top: -20px;
     background-color: rgb(41, 40, 40);
     text-align: center;
@@ -380,7 +380,7 @@ color: black;
     text-align: start;
     padding: 10px;
     border-radius: 10px;
-    margin: 50px auto 50px auto;
+    margin: auto;
     button{margin-top: 10px;
         border-radius: 10px;
         background-color: rgb(181, 249, 164);
@@ -391,7 +391,173 @@ color: black;
     }
 }
 .jvwrite{
+        border-left: 2px solid black;
+
     background-color: lightgray;
     padding: 8px;
-    color: rgb(238, 129, 129);
 }
+#phyton{margin-top: -20px;
+    background-color: rgb(245, 229, 231);
+    padding: 20px;
+    display: flex;
+}
+.phy{margin: auto;
+    text-align: center;
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+  
+    }
+    p{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+}
+    a{text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+    }
+
+}
+.lp{
+    background-color: rgb(6, 195, 56);
+    padding: 8px 22px 8px 22px;
+    border-radius: 20px;
+    color: white;
+}
+.lp:hover{
+    background-color:rgb(4, 163, 47);
+}
+.pr{
+    background-color: black;
+        padding: 8px 10px 8px 10px;
+    border-radius: 20px;
+color: white;
+
+}
+.pr:hover{
+    background-color: lightgray;
+
+}
+
+.pgc{
+        padding: 8px 30px 8px 30px;
+        border-radius: 20px;
+background-color: rgb(248, 205, 211);
+color: black;
+}
+.pgc:hover{
+    background-color: rgb(244, 163, 176);
+}
+.phstyle{
+    background-color: white;
+    width: 240px;
+    height: 170px;
+    text-align: start;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    button{margin-top: 10px;
+        border-radius: 10px;
+        background-color: rgb(181, 249, 164);
+        padding: 2px;
+    }
+    button:hover{
+        background-color:rgb(84, 242, 45) ;
+    }
+}
+.phwrite{
+        border-left: 2px solid black;
+
+    background-color: lightgray;
+    padding: 8px;
+}
+@media screen and (max-width:500px) {
+    .phstyle{
+        display: none;
+    }
+}
+#sql{margin-top: -20px;
+    background-color: rgb(126, 201, 201);
+    padding: 20px;
+    display: flex;
+}
+.sq{
+    margin: auto;
+    text-align: center;
+
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+  
+    }
+    p{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+}
+    a{text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+    }
+}
+
+.lsq{
+    background-color: rgb(6, 195, 56);
+    padding: 8px 28px 8px 28px;
+    border-radius: 20px;
+    color: white;
+}
+.lsq:hover{
+    background-color:rgb(4, 163, 47);
+}
+.sqr{
+    background-color: black;
+        padding: 8px 16px 8px 16px;
+    border-radius: 20px;
+color: white;
+
+}
+.sqr:hover{
+    background-color: lightgray;
+
+}
+
+.sgc{
+        padding: 8px 26px 8px 26px;
+        border-radius: 20px;
+background-color: rgb(248, 205, 211);
+color: black;
+}
+.sgc:hover{
+    background-color: rgb(244, 163, 176);
+}
+.sqstyle{
+    background-color: white;
+    width: 240px;
+    height: 170px;
+    text-align: start;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    button{margin-top: 10px;
+        border-radius: 10px;
+        background-color: rgb(181, 249, 164);
+        padding: 2px;
+    }
+    button:hover{
+        background-color:rgb(84, 242, 45) ;
+    }
+}
+.sqwrite{
+        border-left: 2px solid black;
+
+    background-color: lightgray;
+    padding: 8px;
+}
+@media screen and (max-width:500px) {
+    .sqstyle{
+        display: none;
+    }
+}
+
