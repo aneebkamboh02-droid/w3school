@@ -560,4 +560,118 @@ color: black;
         display: none;
     }
 }
+#footer{padding: 50px;
+    font-size: 10px;
+    background-color: rgb(41, 40, 40);
+}
+.fhead{background:rgb(41, 40, 40); ;
+width: 100%;
+text-align: center;
+word-spacing: 60px;
+    a{
+        color:rgb(240, 240, 162);
+        text-decoration: none;
+       
+    }
+    a:hover{
+        color: gray;
+    }
+}
+@media  screen  and (max-width:900px){
+    .fhead{text-align: center;
 
+        word-spacing: 40px;
+
+    }
+}
+@media  screen  and (max-width:750px){
+    .fhead{text-align: center;
+
+        word-spacing: 32px;
+
+    }
+}
+@media  screen  and (max-width:680px){
+    .fhead{text-align: center;
+
+        word-spacing: 22px;
+
+    }
+}
+@media  screen  and (max-width:580px){
+    .fhead{
+        word-spacing: 10px;
+text-align: center;
+
+    }
+}
+@media  screen  and (max-width:480px){
+    .fhead{text-align: center;
+
+        word-spacing:5px;
+
+    }
+}
+.tutorial{
+    h1{
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: lightgray;
+
+    }
+}
+.reference{
+    h1{
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: lightgray;
+
+    }
+}
+.example{
+    h1{
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: lightgray;
+
+    }
+}
+.getcertified{
+    h1{
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: lightgray;
+
+    }
+}
+#treg{margin: 30px auto 30px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 100px;
+}
+.icon{text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
